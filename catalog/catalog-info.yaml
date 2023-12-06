@@ -10,7 +10,8 @@ metadata:
     - web
     - tanzu
   annotations:
-     'backstage.io/techdocs-ref' :  'app.kubernetes.io/part-of=tanzu-test-java-web-app'
+     'backstage.io/techdocs-ref' : 'dir:.'
+     'backstage.io/kubernetes-label-selector' :  'app.kubernetes.io/part-of=tanzu-test-java-web-app'
 spec:
   type: service
   lifecycle: experimental
