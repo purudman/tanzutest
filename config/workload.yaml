@@ -1,4 +1,4 @@
-apiVersion: carto.run/techdocs-ref
+apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
   name: tanzu-test-java-web-app
